@@ -1,0 +1,104 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body{
+    background-image: url("Images/background2.jpg");
+    background-repeat: no-repeat;
+    border-radius: 25pxf;
+    border: 3px solid white;
+    padding: 5px;
+    margin: 10px;
+    background-attachment: fixed;
+    color:white;
+}
+
+h1{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+h2{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+p, #para{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.topnav{
+    background-color: #999999;
+    overflow:hidden;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.topnav ul{
+    list-style: none;
+}
+
+.topnav a{
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #456789;
+    color:white;
+}
+
+.editlink{
+    color: white;
+    font-size: 30px;
+}
+
+.editlink:visited{
+    text-decoration:none;
+    decoration:none;
+}
+
+.linkhead{
+    color:white;
+    text-decoration: none;
+}
+
+.linkhead:visited{
+    text-decoration:none;
+    decoration:none;
+}
+
+.readit{
+    color:white;
+}
+
+#return{
+    color:white;
+}
+
+#return:visited{
+    text-decoration:none;
+    decoration:none;
+}
+
+#image{
+    width:400px;
+    height:520px;
+    object-fit:cover;
+    float:left;
+    position: relative;
+    border: 1px solid white;
+}
+
+div#aside {
+    margin:5px auto;
+}
+
+#asc{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size:15px;
+    color:white;
+}
